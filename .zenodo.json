@@ -19,7 +19,7 @@
   ],
   "related_identifiers": [
     {
-      "identifier": "https://guidelines.jsmcah.org/adult-second-dose/",
+      "identifier": "https://rekreisler.github.io/adult-second-dose/",
       "relation": "isSupplementTo",
       "scheme": "url"
     }

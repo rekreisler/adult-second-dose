@@ -1,7 +1,7 @@
 # Second-dose models
 
 Interactive models that accompany a modeling paper on a second modified live vaccine dose in
-adult shelter cats and dogs. Served at https://guidelines.jsmcah.org/adult-second-dose/.
+adult shelter cats and dogs. Served at https://rekreisler.github.io/adult-second-dose/.
 
 - `cats.html`: second panleukopenia dose in adult cats
 - `dogs.html`: second distemper and parvovirus dose in adult dogs

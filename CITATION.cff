@@ -13,7 +13,7 @@ authors:
     given-names: "Michael L."
     affiliation: "Social Compassion in Legislation"
 license: CC-BY-4.0
-url: https://guidelines.jsmcah.org/adult-second-dose/
-repository-code: https://github.com/jsmcah/adult-second-dose
+url: https://rekreisler.github.io/adult-second-dose/
+repository-code: https://github.com/rekreisler/adult-second-dose
 date-released: 2026-10-31
 abstract: "Interactive browser models that estimate the second doses of modified live vaccine a shelter gives per case averted in adult cats (panleukopenia) and dogs (distemper, parvovirus), from a shelter's own length-of-stay records and case counts or from illustrative stays, and the effect of the day the second dose is given. They accompany the modeling paper of the same title."
