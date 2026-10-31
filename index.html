@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Second-Dose Models</title>
+<style>
+:root{--bg:#EEF2F3;--surface:#fff;--fg:#14202A;--muted:#54646F;--line:#D3DBDF;--accent:#0E6E6B}
+@media (prefers-color-scheme:dark){:root{--bg:#11191E;--surface:#18232A;--fg:#E3EAEE;--muted:#9AAAB4;--line:#2B3A43;--accent:#5FC0BA;color-scheme:dark}}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.55 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:720px;margin:0 auto;padding:48px max(16px,env(safe-area-inset-right,0px)) 48px max(16px,env(safe-area-inset-left,0px))}
+h1{font-size:1.6rem;margin:0 0 .5rem;text-wrap:balance}
+p{color:var(--muted)}
+.draft{border-left:3px solid var(--accent);padding:8px 14px;background:var(--surface);color:var(--fg);font-size:.95rem}
+ul{list-style:none;padding:0;margin:2rem 0}
+li{background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:16px 20px;margin-bottom:12px}
+li a{font-weight:600}
+li span{display:block;color:var(--muted);font-size:.95rem;margin-top:4px}
+a{color:var(--accent)}
+footer{margin-top:3rem;font-size:.9rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<main>
+<h1>Second modified live vaccine dose in adult shelter animals</h1>
+<p>Interactive companions to a modeling paper on whether adult cats and dogs in shelters need a second dose of modified live vaccine against panleukopenia, distemper and parvovirus. Each model estimates how many second doses a shelter would give to prevent one case, from its own length-of-stay records and case counts or from illustrative stays.</p>
+<p class="draft">Draft. The paper is in preparation, and figures may change until it is posted.</p>
+<ul>
+<li><a href="cats.html">Second panleukopenia dose in adult cats</a><span>Doses per case averted for your shelter, from your own stays and window cases, and a picture of which adult cats a second dose can still reach.</span></li>
+<li><a href="dogs.html">Second distemper and parvovirus dose in adult dogs</a><span>The same calculator and picture for adult dogs, for distemper and parvovirus.</span></li>
+<li><a href="timing.html">Timing of the second dose</a><span>What moving the second dose earlier or later than day 14 gains and costs, for cats and dogs.</span></li>
+</ul>
+<p>Example record files show the layout the models read: <a href="examples/example_records_cats.csv">cats</a>, <a href="examples/example_records_dogs.csv">dogs</a>. They are synthetic. Records you upload are read in your browser and are not sent anywhere.</p>
+<footer>Built 2026-10-31 · Content licensed <a href="LICENSE">CC BY 4.0</a> · <a href="../">ASV Guidelines Evidence</a></footer>
+</main>
+</body>
+</html>
