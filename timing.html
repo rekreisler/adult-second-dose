@@ -119,7 +119,7 @@ img{max-width:100%}
 
 
 <div class="wrap">
-  <div class="eyebrow">Timing model · second core dose · adult cats and dogs · build 2026-10-28</div>
+  <div class="eyebrow">Timing model · second core dose · adult cats and dogs · build 2026-10-31</div>
   <h1>When to give the second dose to adult shelter animals</h1>
   <p class="sub">Every adult is assumed to get one dose of modified live vaccine on the day of intake. This tool asks what happens if the second dose moves earlier or later than day 14. A later dose is given to fewer animals, because many have left, and prevents fewer cases, because it acts later. Pick a day and see both sides of that trade for your own stays and window cases. Adults one year and older only.</p>
   <a class="xlink" id="reachLink" href="cats.html"><b>Companion tool &rarr; Cat reach model.</b> A picture of which adult cats a second dose can actually reach, and what it prevents.</a>
@@ -139,7 +139,7 @@ img{max-width:100%}
   <div class="layout">
     <main class="card">
       <h2>What each day buys</h2>
-      <p class="cap">Day 7 to day 42, at your settings. The dashed line is day 14, the usual schedule, and the solid line is the day you picked.</p>
+      <p class="cap">Day 7 to day 42, at your settings. The shaded band is days 14 to 21, the interval of 2 to 3 weeks in current guidance (WSAVA 2024), as in the paper's Figure 3. The dashed line is day 14, the paper's base, and the solid line is the day you picked.</p>
       <div class="charts">
         <div class="chart"><p class="t">Second doses given, per 1,000 adult admissions</p><svg id="c_doses" role="img" aria-label="Second doses given by day of the second dose"></svg></div>
         <div class="chart"><p class="t">Cases averted, per 1,000 adult admissions</p><svg id="c_avert" role="img" aria-label="Cases averted by day of the second dose"></svg></div>
@@ -711,6 +711,8 @@ img{max-width:100%}
     const vals=rows.map(r=>r[key]).filter(isFinite);
     const ymax=niceMax(Math.max(...vals,0)*1.05);
     const x=d=>L+(d-7)/(42-7)*(W-L-R), y=v=>T+(1-v/ymax)*(H-T-B);
+    // Days 14 to 21 shaded, matching Figure 3 of the paper (2026-10-31).
+    el("rect",{x:x(14),y:T,width:x(21)-x(14),height:H-T-B,fill:"var(--accent-soft)","fill-opacity":0.6,stroke:"none"},svg);
     for(let i=0;i<=4;i++){ const v=ymax*i/4;
       el("line",{x1:L,x2:W-R,y1:y(v),y2:y(v),stroke:"var(--line-2)","stroke-width":1},svg);
       const t=el("text",{x:L-8,y:y(v)+4,"text-anchor":"end","font-size":11,fill:"var(--ink-3)","font-family":"var(--mono)"},svg); t.textContent=fmt(v); }
