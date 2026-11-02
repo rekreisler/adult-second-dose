@@ -1,27 +1,31 @@
 {
-  "title": "Browser models for: The direct benefit of a second modified live core vaccine dose for adult shelter dogs and cats",
+  "title": "Browser tools for the second-dose model: adult shelter cats and dogs",
   "upload_type": "software",
-  "description": "Interactive browser models that estimate the second doses of modified live vaccine a shelter gives per case averted in adult cats (panleukopenia) and dogs (distemper, parvovirus), from a shelter's own length-of-stay records and case counts or from illustrative stays, and the effect of the day the second dose is given. They accompany the modeling paper of the same title.",
-  "license": "cc-by-4.0",
+  "description": "Interactive browser models that estimate the second doses of modified live vaccine a shelter gives per case averted in adult cats (panleukopenia) and dogs (distemper, parvovirus), from a shelter's own length-of-stay records and case counts or from illustrative stays, and the effect of the day the second dose is given. They accompany Kreisler RE, DeTar L, Mavrovouniotis ML. The direct benefit of a second modified live core vaccine for adult shelter dogs and cats: a decision-analytic model. Submitted to BMC Veterinary Research.",
+  "version": "1.0.0",
+  "license": "mit",
   "creators": [
     {
       "name": "Kreisler, Rachael",
-      "affiliation": "College of Veterinary Medicine, Midwestern University"
+      "affiliation": "College of Veterinary Medicine, Midwestern University",
+      "orcid": "0000-0002-5562-5521"
     },
     {
       "name": "DeTar, Lena",
-      "affiliation": "Maddie's Shelter & Community Medicine, Cornell University College of Veterinary Medicine"
+      "affiliation": "Maddie's Shelter & Community Medicine, Cornell University College of Veterinary Medicine",
+      "orcid": "0000-0002-0176-9183"
     },
     {
       "name": "Mavrovouniotis, Michael L.",
-      "affiliation": "Social Compassion in Legislation"
+      "affiliation": "Social Compassion in Legislation",
+      "orcid": "0009-0009-9896-2761"
     }
   ],
   "related_identifiers": [
     {
-      "identifier": "https://rekreisler.github.io/adult-second-dose/",
+      "identifier": "10.5281/zenodo.23875287",
       "relation": "isSupplementTo",
-      "scheme": "url"
+      "scheme": "doi"
     }
   ],
   "keywords": [

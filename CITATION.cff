@@ -1,19 +1,23 @@
 cff-version: 1.2.0
 message: If you use these models, please cite them as below.
-title: "Browser models for: The direct benefit of a second modified live core vaccine dose for adult shelter dogs and cats"
+title: "Browser tools for the second-dose model: adult shelter cats and dogs"
+version: "1.0.0"
 type: software
 authors:
   - family-names: "Kreisler"
     given-names: "Rachael"
     affiliation: "College of Veterinary Medicine, Midwestern University"
+    orcid: "https://orcid.org/0000-0002-5562-5521"
   - family-names: "DeTar"
     given-names: "Lena"
     affiliation: "Maddie's Shelter & Community Medicine, Cornell University College of Veterinary Medicine"
+    orcid: "https://orcid.org/0000-0002-0176-9183"
   - family-names: "Mavrovouniotis"
     given-names: "Michael L."
     affiliation: "Social Compassion in Legislation"
-license: CC-BY-4.0
+    orcid: "https://orcid.org/0009-0009-9896-2761"
+license: MIT
 url: https://rekreisler.github.io/adult-second-dose/
 repository-code: https://github.com/rekreisler/adult-second-dose
-date-released: 2026-10-31
-abstract: "Interactive browser models that estimate the second doses of modified live vaccine a shelter gives per case averted in adult cats (panleukopenia) and dogs (distemper, parvovirus), from a shelter's own length-of-stay records and case counts or from illustrative stays, and the effect of the day the second dose is given. They accompany the modeling paper of the same title."
+date-released: 2026-11-01
+abstract: "Interactive browser models that estimate the second doses of modified live vaccine a shelter gives per case averted in adult cats (panleukopenia) and dogs (distemper, parvovirus), from a shelter's own length-of-stay records and case counts or from illustrative stays, and the effect of the day the second dose is given. They accompany Kreisler RE, DeTar L, Mavrovouniotis ML. The direct benefit of a second modified live core vaccine for adult shelter dogs and cats: a decision-analytic model. Submitted to BMC Veterinary Research."
